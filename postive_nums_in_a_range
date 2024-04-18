@@ -1,0 +1,8 @@
+def pos_nums(lst):
+    pos = [num for num in lst if num > 0]
+    return pos
+
+l1 = [12, -7, 5, 64, -14]
+o1 = pos_nums(l1)
+print("Input:", "l1 =", l1, "Output:", o1)
+
