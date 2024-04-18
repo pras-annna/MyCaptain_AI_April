@@ -1,0 +1,12 @@
+E = {0, 2, 4, 6, 8}
+N = {1, 2, 3, 4, 5}
+
+u = E | N
+i = E & N
+d = E - N
+s = E ^ N
+
+print("Union of E and N is", u)
+print("Intersection of E and N is", i)
+print("Difference of E and N is", d)
+print("Symmetric difference of E and N is", s)
