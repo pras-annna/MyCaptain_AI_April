@@ -1,0 +1,11 @@
+def fib(l):
+    s = [0, 1]
+    while s[-1] + s[-2] <= l:
+        n = s[-1] + s[-2]
+        s.append(n)
+    return s
+
+l = int(input("Enter the limit for Fibonacci numbers: "))
+f = fib(l)
+print("Fibonacci numbers up to", l, "are:")
+print(f)
